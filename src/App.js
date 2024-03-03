@@ -11,7 +11,7 @@ function App() {
   const itemsPerPage = 50;
   const [filters, setFilters] = useState({});
 
-  const baseUrl = "http://api.valantis.store:40000/";
+  const baseUrl = "https://api.valantis.store:41000/";
   const password = md5(
     `Valantis_${new Date().toISOString().split("T")[0].replaceAll("-", "")}`
   );
